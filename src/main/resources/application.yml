@@ -3,3 +3,11 @@ server:
 spring:
   jmx:
     enabled: true
+
+  boot:
+    admin:
+      notify:
+        telegram:
+          enabled: true
+          auth-token: 1126636377:AAEkzyMc86hxRkSBjtQlXCQF1rV_lkqJ_0Q
+          chat-id: 627461793
